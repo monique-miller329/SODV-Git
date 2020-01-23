@@ -1,0 +1,66 @@
+/* Sorry jumping ahead a wee bit */
+
+/* This is the headerz formating */
+h1 {
+	display: block;
+	font-family: garamond;
+	font-size: 3em;
+	font-weight: bold;
+	text-align: center;
+	color: #000000;
+	background-color: none;
+}
+
+h2 {
+	display: block;
+	font-family: garamond;
+	font-size: 2em;
+	font-weight: bold;
+	color: #DC143C;
+	background-color: none;
+	margin: 0em 0em 0em 0em;
+}
+/* Margins = Top Right Bottom Left */
+
+/* Make your paragraphs pretty */	
+p {	
+	display: block;
+	font-family: optima;
+	font-size: 1em;
+	color: #282828;
+	background-color: none;
+	margin: 0em 0em 1em 0em;
+}
+
+/* Link Fancy */
+a:link{
+	color: #DC143C;
+}
+
+a:visited{
+	color: #DC143C;
+}
+
+a:active{
+	color: #DC143C;
+}
+
+a:hover {
+	color: #DC143C;
+	background-color: #000000;
+}
+
+/* List Styling */
+ul {
+	display: block;
+}
+
+/* Image Styling */
+img {
+	display: block;
+	width: 125px;
+	max-width: 125px;
+	border: 1px solid #DC143C;
+	margin-right: 1.5em;
+
+}
