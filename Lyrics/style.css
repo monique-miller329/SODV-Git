@@ -1,10 +1,10 @@
-
 /* Body */
 body {
     font-family: Lato;
-    margin-right: auto;
     margin-left: auto;
+    margin-right: auto;
 }
+
 
 /* Headers */
 h1 {
@@ -17,7 +17,8 @@ h1 {
 }
 
 h2 {
-    font-size: 1.75em;
+    font-size: 1.5em;
+    letter-spacing: 0.05em;
     text-transform: uppercase;
     color: #302f2d;
     padding: 0.25em;
@@ -30,30 +31,37 @@ h3 {
     padding: 0.15em;
 }
 
-.highlight {
-    background-color: #fad82f;
+.header-highlight {
+    background-color:yellow;
 }
 
-.bigyello {
+.yellow-text {
     font-size: 2.25em;
     font-weight: bold;
     text-align: left;
-    color: #fad82f;
+    color: yellow;
     margin-bottom: 0em;
     padding: 0em;
 }
 
-.gre {
+.grey-text {
     color: rgb(189, 189, 189);
     margin-top: 0em;
 }
 
-/* Naviiiii */
+.white-text {
+    color: white;
+    margin-top: 0em;
+    padding: 0em;
+}
+
+
+/* Navigation */
 nav {
     display: inline-block;
+    width: 100%;  
     text-align: center;
-    background-color: rgb(61, 65, 64);
-    width: 100%;   
+    background-color: rgb(61, 65, 64); 
 }
 
 ul {
@@ -68,7 +76,7 @@ li {
 }
 
 
-/* Banner */
+/* Header Banners */
 header {
     background-image: url(./album.png);
     background-position: center;
@@ -76,32 +84,34 @@ header {
     background-repeat: no-repeat;
 }
 
-.banimg {
+.banner-img {
+    justify-self: right;
     max-width: 50%;
     min-width: 25%;
-    padding: 1.5em;
+    padding: 2em;
 }
 
-.ban {
+.banner {
     display: grid;
     grid-template-columns: 65% 35%;
+    width: 84%;
+    background-color: rgba(32, 32, 32, 0.9);
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1em;
-    background-color: rgba(32, 32, 32, 0.8);
-    width: 84%;
 }
 
-.hbox {
-    align-content: center;
+.header-box {
+    margin-left: 2em;
+    margin-top: 2em;
 }
 
 
 /* Links */ 
-.hili {
+.highlight-link {
     font-style: italic;
     color: #302f2d;
-    background-color: #fad82f;
+    background-color: yellow;
     padding: 0.15em;
 }
 
@@ -110,16 +120,16 @@ a {
     text-decoration: none;
 }
 
+
 /* Body Grid */
-.bdgrid {
+.body-grid {
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 60% 35%;
     justify-content: center;
-    grid-gap: 5em;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 2em;
-    width: 75%;
 }
 
 .box1 {
@@ -137,14 +147,15 @@ a {
 .box3 {
     grid-column: 2;
     grid-row: 1;
-    background-color: #fad82f;
+    background-color: yellow;
     margin-top: 0px;
     margin-bottom: 0px;
-    padding: 0.5em;
+    padding: 0.5em; 
 }
 
+
 /* Aside */
-.ap {
+.aside-p {
     color: white;
     letter-spacing: 0.1em;
     padding-bottom: 2em;
@@ -156,35 +167,50 @@ a {
     padding-top: 1em;
 }
 
+iframe {
+    max-width: 100%;
+}
+
+.aside-cite {
+    color: yellow;
+}
+
+
 /* Lyrics */
 .lyrics {
-    border-left: 2px solid #fad82f;
+    border-left: 2px solid yellow;
+    margin-bottom: 3em;
 }
 
 .chorus {
     margin-left: 2.5em;
 }
 
-.lhili {
+.lyrics-highlight {
     display: inline-block;
-    background-color: #fad82f;
-    padding: none;
+    background-color: yellow;
 }
 
-.lhead {
+.lyrics-header {
     padding: 0.15em 0.5em 0.15em 0.5em;
     margin: 0.25em;
 }
 
-.lbody {
+.lyrics-body {
     letter-spacing: 0.1em;
     padding-left: 2em;
 }
 
 
-/* Footer  */
+/* Footer */
 footer {
     font-size: 0.75em;
-    border-top: 3px solid #fad82f;
-    padding: 0.5em;
+    border-top: 3px solid yellow;
+    padding-top: 1em;
+}
+
+.footer-width {
+    width: 71%;
+    margin-left: auto;
+    margin-right: auto;
 }
