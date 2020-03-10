@@ -1,0 +1,122 @@
+html {
+    background-image: url(cloud_bg.jpg);
+    background-repeat: no-repeat;
+}
+
+body {
+    font-family: lato;
+    font-size: 1em;
+    width: 100%;
+}
+
+/* Headers */
+h1 {
+    font-family: helvetica;
+    font-size: 3em;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(62, 194, 194);
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0em;
+    margin-top: 0em;
+}
+
+h2 { 
+    font-family: helvetica;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+/* Navigation */
+nav {
+    background-color: thistle;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: rgb(245, 118, 160);
+}
+
+ul {
+    list-style-type: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+li {
+    margin: 0 1em 0 1em;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.heart {
+    color: white;
+}
+
+/* Body Grid */
+.body-grid {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    background-color: rgba(255, 255, 255, 0.712);
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photo {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.main-text {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+/* Paragraphs */
+p {
+    text-align: justify;
+    text-indent: 3em;
+}
+
+/* Image */
+.ts-image {
+    justify-content: center;
+    width: 80%;
+    border: 2px solid rgb(245, 118, 160);
+    margin: 1em;
+}
+
+/* Video */
+.video{
+    text-align: center;
+    }
+    
+iframe{
+        width: 75%;
+        min-height: 350px;
+    }
+
+/* Footer */
+footer {
+    font-size: 0.7em;
+
+}
+
+.footer-center {
+    text-align: center;
+    text-indent: 0px;
+}
