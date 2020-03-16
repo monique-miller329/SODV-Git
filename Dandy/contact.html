@@ -12,38 +12,38 @@
         <link rel="stylesheet" type="text/css" href="./style.css">
     </head>
 
+    <body>  
 <!-- Navigation -->
-    <nav>
-        <ul>
-            <li>
-                <span class="logo"><a href="#"><img src="./images/logosm.png"></a></span>
-            </li>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./about.html">About Us</a></li>
-            <li><a href="./beers.html">Beers</a></li>
-            <li><a href="./findus.html">Find Us</a></li>
-            <li><a href="./air.html">Artist in Residence</a></li>
-            <li><span class="navcontact"><a href="./contact.html">Contact Us</a></span></li>
-        </ul>
-    </nav>
+        <nav>
+            <ul>
+                <li>
+                     <span class="logo"><a href="#"><img src="./images/logosm.png" alt="Dandy Logo"></a></span>
+                </li>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About Us</a></li>
+                <li><a href="./beers.html">Beers</a></li>
+                <li><a href="./findus.html">Find Us</a></li>
+                <li><a href="./air.html">Artist in Residence</a></li>
+                <li><span class="navcontact"><a href="./contact.html">Contact Us</a></span></li>
+            </ul>
+        </nav>
 
-    <body>
 <!-- Contact -->
         <h1>Contact Us</h1>
 
         <p>*Please note, at this time, due to our limited space, we do not take reservations, nor do we book private tours in the tasting room.*</p>
 
         <form>
-            Name
+            <label>Name</label>
                 <input type="text" name="name"><br>
-            E-mail
+            <label>E-mail</label>
                 <input type="email" name="email" size="40"><br>
-            Phone Number
+            <label>Phone Number</label>
                 <input type="tel" name="phonenumber"><br>
-            Questions? Comments? Concerns?<br>
+            <label>Questions? Comments? Concerns?</label><br>
                 <textarea name="comment" rows="10" cols="75">Tell us!
                 </textarea><br>
-            I'd like to receive promotions regarding new products & events from The Dandy Brewing company
+            <label>I'd like to receive promotions regarding new products & events from The Dandy Brewing company</label>
                 <select name="consent">
                     <option value="00"></option>
                     <option value="0">Yes</option>
@@ -54,10 +54,11 @@
         </form>
 
 <!-- Location & Google Maps -->
-        <div>
-            <!-- We need an api key for a functional map aaaa shit -->
-        </div>
-        <div>
+        <section class="google-map">
+            <!-- The map isn't real. -->
+            <img src="./images/map.png" alt="Map Mock-Up">
+        </section>
+        <section class="address-hours">
             <h2>Location</h2>
             <p>The Dandy Brewing Company<br>
             2003 11th Street SE, Calgary AB<br>
@@ -71,7 +72,7 @@
             Friday 11:30-Midnight<br>
             Saturday 10am-Midnight<br>
             Sunday 10am- 8pm</p>
-        </div>
+            </section>
     </body>
 
 <!-- Footer -->
