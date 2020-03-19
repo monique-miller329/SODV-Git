@@ -1,18 +1,39 @@
+html {
+    background-color: rgb(0, 0, 0, 0.95);
+    background-image: url(./images/kegs.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
 /* Body */
 body {
     font-family: lato;
     font-size: 1em;
-    margin: 0em;
+    background-color: rgb(255, 255, 255);
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1em;
 }
 
 /* Headers */
 h1 {
+    font-size: 2.5em;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin: 0em;
 }
 
 h2 {
+    font-size: 2em;
+    text-transform: uppercase;
 }
 
 h3 {
+    font-size: 1.5em;
+    text-transform: uppercase;
 }
 
 /* Links */
@@ -25,24 +46,76 @@ a:visited {
 a:hover {
 }
 
+/* Navigtion */
+
+/* Index */
+.octo {
+    display: grid;
+    align-items: center;
+    background-image: url(./images/octopus.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1em;
+}
+
+.octo-text {
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0.8);
+    padding: 0.5em;
+}
+
+
 /* About */
 .about {
 }
+
 
 /* Story */
 .story {
 }
 
+
 /* Artist in Residence */
 .air {
 }
 
+
 /* Contact Us */
+.contact-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-gap: 1em;
+    padding: 1em;
+}
+
 .form {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    justify-self: center;
+    max-width: 100%;
 }
 
 .google-map {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.gm-img {
+    max-height: 100%;
+    justify-self: center;
 }
 
 .address-hours {
+    grid-column: 2;
+    grid-row: 2;    
+    justify-self: center;
+
 }
+
+
+/* Footer */
