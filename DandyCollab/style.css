@@ -1,0 +1,228 @@
+html {
+    background-color: rgb(0, 0, 0, 0.95);
+    background-image: url(./images/kegs.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* Body */
+body {
+    font-family: lato;
+    font-size: 1em;
+    background-color: rgb(255, 255, 255);
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1em;
+}
+
+
+/* Headers */
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    background-color:  rgb(0, 0, 0);
+    margin: 0em;
+}
+
+h2 {
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+
+/* Links */
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(250, 133, 0);
+}
+
+a:hover { 
+    color: rgb(128, 128, 128);
+}
+
+a:visited {
+    color:  rgb(61, 61, 61);
+}
+
+
+/* HR */
+hr {
+    height: 2px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+
+/* Navigtion */
+.logo img{
+    height: 65%;
+    width: 65%;
+    min-width: 125px;
+}
+
+nav ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+}
+
+nav li{
+    display: grid;
+    padding: 1em;
+}
+
+nav a{
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+	font-weight: bold;
+    font-size: 1.2em;
+}
+
+nav a:hover{
+	color: rgb(128, 128, 128);
+}
+
+.navcontact{
+    border: 2px solid rgb(68, 67, 67);
+    text-align: center;
+    padding: 0.75em;
+}
+
+
+/* Body Flex */
+.flex-body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flex-body-column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+}
+
+/* Index */
+.octo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./images/octopus.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1em;
+}
+
+.octo-text {
+    order: 0;
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0.8);
+    color:  rgb(0, 0, 0, 0.95);
+    padding: 0.5em;
+}
+
+
+/* Beers */
+.big-beer-list{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.each-beer{
+    display:flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.each-beer section {
+    min-width: 90px;
+    margin: auto 0;
+}
+
+.each-beer>section h4 {
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+.each-beer p{
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+}
+
+.beer-bottles{
+    max-width: 100%;
+}
+
+
+/* Find Us */
+ul.a {
+    list-style-type: square;
+}
+
+
+/* Contact Us */
+.form {
+    align-self: stretch;
+    margin-bottom: 2em;
+}
+
+.social {
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.google-map {
+    flex-direction: row;
+    align-self: stretch;
+    margin-bottom: 1em;
+}
+
+.address-hours {
+    flex-direction: row;
+    justify-self: center;
+    margin-bottom: 1em;
+}
+
+.sicon {
+    font-size: 3em;
+    margin-top: 0em;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 0.75em;
+}
